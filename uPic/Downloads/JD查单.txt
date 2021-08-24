@@ -1,0 +1,26 @@
+接口：https://wq.jd.com/bases/orderdetail/orderinfo?deal_id=148625899170&callersource=mainorder&callback=detailFirCbA&traceid=&t=1615106546845&g_ty=ls&g_tk=5381&sceneval=2
+
+deal_id="订单号"
+t=“时间戳要加的”
+
+g_tk=“我测试每次随机生成一个也行！避免查多了风控”
+
+
+Host: wq.jd.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Linux; Android 5.1; OPPO R9tm Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/81.0.4044.145 Mobile Safari/537.36
+Accept: */*
+X-Requested-With: com.qihoo.browser
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: script
+Referer: https://wqs.jd.com/order/n_detail_v2.shtml?deal_id=148625899170&sceneval=2
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: {我给你返回的cookie放进来就行}
+
+
+重点：
+
+切记 切记！
+
+不能总用一个IP去查单  多了 会造成这些 ck  全部异常  我建议你配置一个代理IP
